@@ -44,9 +44,6 @@ local Tab = Window:CreateTab("gdoorhub", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "door",
    Callback = function()
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 print("MSHUB: Loading...")
 loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5055/19455/Loader.lua'))()
    end,
